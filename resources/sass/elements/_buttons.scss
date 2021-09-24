@@ -1,0 +1,85 @@
+.btn {
+
+	&-primary {
+		background-color: $primary !important;
+	}
+}
+
+.btn-outline-primary {
+	border: 1px solid;
+	border-color: $primary !important;
+	background-color: transparent;
+	color: #fff !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+
+	&:not(:disabled):not(.disabled) {
+
+		&:active, &.active {
+			color: #FFFFFF;
+			background-color: $primary !important;
+			border-color: $primary !important;
+			
+			&:focus {
+				-webkit-box-shadow: 0 0 0 0.2rem rgba( $primary, 0.5);
+				box-shadow: 0 0 0 0.2rem rgba($primary, 0.5);
+			}
+		}
+	}
+}
+
+.show > .btn-outline-primary.dropdown-toggle {
+	color: #FFFFFF;
+	background-color: $primary !important;
+	border-color: $primary !important;
+
+	&:focus {
+		-webkit-box-shadow: 0 0 0 0.2rem rgba( $primary, 0.5);
+		box-shadow: 0 0 0 0.2rem rgba($primary, 0.5);
+	}
+}
+
+.btn-loading {
+	position: relative;
+	pointer-events: none;
+	color: transparent !important;
+
+	&:after {
+		animation: spinAround 500ms infinite linear;
+		border: 2px solid #dbdbdb;
+		border-radius: 50%;
+		border-right-color: transparent;
+		border-top-color: transparent;
+		content: "";
+		display: block;
+		height: 1em;
+		width: 1em;
+		position: absolute;
+		left: calc(50% - (1em / 2));
+		top: calc(50% - (1em / 2));
+	}
+}
+
+.btn-badge {
+	color: $white !important;
+    border-radius: 4px;
+	padding: 8px 20px;
+	font-weight: 600;
+	
+	@each $color, $hex in $colors {
+		&.btn-#{$color} {
+			background: rgba($hex, 1) !important;
+			border-color: $hex !important;
+
+			&:focus {
+				-webkit-box-shadow: 0 0 0 0.2rem rgba($hex, 0.25);
+				box-shadow: 0 0 0 0.2rem rgba($hex, 0.25);
+			}
+		}
+	}
+}
+
+@keyframes spinAround {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(359deg); }
+}

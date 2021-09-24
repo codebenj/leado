@@ -1,0 +1,17 @@
+.alert {
+
+	&-danger {
+		color: $white !important;
+	}
+
+	&-success {
+		color: $white !important;
+	}
+}
+
+.toast {
+
+	.toast-message {
+		font-weight: 600;
+	}
+}

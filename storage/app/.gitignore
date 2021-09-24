@@ -1,0 +1,5 @@
+*
+!public/
+!.gitignore
+!countries.json
+!public/test_assets/*

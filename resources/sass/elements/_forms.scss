@@ -1,0 +1,80 @@
+form {
+
+	.form-section {
+		// color: var(--gray) !important;
+		border-bottom: 1px solid rgba($light-gray, 0.6) !important;
+	}
+
+	label {
+		color: #75787D;
+		font-size: 0.75rem;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-weight: 500;
+	}
+}
+
+.form-control {
+	border: 1px solid rgba($light-gray, 0.3) !important;
+	background-color: rgba($light-gray, 0.1) !important;
+
+	&:focus {
+		color: #495057;
+		background-color: $white;
+		border-color: rgba($primary,.05)!important;
+		outline: 0;
+		box-shadow: 0 0 0 0.1rem rgba($primary,.8)!important;
+	}
+}
+
+.custom-control-label {
+	letter-spacing: 1px;
+	cursor: pointer;
+    position: relative;
+    margin-bottom: 0;
+    font-weight: 400 !important;
+}
+
+.btn-primary {
+	background-color: $primary !important;
+	color: $white !important;
+	border-color: $primary;
+
+	&:hover {
+		background-color: $primary !important;
+		color: $white !important;
+	}
+}
+
+.custom-file-label {
+
+	&::after {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 3;
+		display: block;
+		height: 2.25rem;
+		padding: 0.375rem 0.75rem;
+		line-height: 1.5;
+		color: $white !important;
+		content: 'Browse';
+		background-color: $primary !important;
+		border-left: 1px solid $primary!important;
+	}
+
+	&:lang(en) ~ .custom-file-label::after {
+		content: 'Import';
+	}
+}
+
+.custom-radio {
+
+	.custom-control-input {
+
+		&:checked ~ .custom-control-label::before {
+			background-color: $primary !important;
+		}
+	}
+}

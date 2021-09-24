@@ -1,0 +1,78 @@
+
+// utilities
+
+.w-100 {
+    width: 100% !important;
+}
+
+.h-100-vh {
+    height: 100vh;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-none {
+    display: none;
+}
+
+
+.d-flex {
+    display: flex;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+  }
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.fl-left {
+    float: left;
+}
+
+.fl-right {
+    float: right;
+}
+
+.activity-log-status {
+    margin-bottom: 20px;
+}
+
+.noti-footer {
+    background-color: #fff;
+    bottom: 0;
+    padding: 10px;
+    position: sticky;
+}
+
+.b-none {
+    border: 0 !important;
+}
+
+.clickable {
+    cursor: pointer;
+}

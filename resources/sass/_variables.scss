@@ -1,0 +1,49 @@
+// Colors
+$body-bg: #f7f9fb;
+$black: #000000;
+$white: #ffffff;
+$dark-blue: #182848;
+$dark-blue-gray: #292F4C;
+$primary: #155799;
+$ligh-blue: #f2f6fc;
+$blue: #117EE7;
+$danger: #DE1F21;
+$yellow: #948500;
+$orange: #D37F03;
+$success: #05B234;
+$gray: #909399;
+$light-gray: #606266;
+$light-gray-2: #6C757D;
+$purple: #7846E3;
+
+// Cards
+$card-spacer-x: 0.9375rem;
+$card-spacer-y: 0.625rem;
+$card-cap-bg: #fbfbfb;
+$card-border-color: #e8eced;
+
+// Borders
+$border-radius: .125rem;
+$border-radius-lg: .2rem;
+$border-radius-sm: .15rem;
+
+// Nav Pills
+$nav-pills-border-radius: 0;
+
+// Color Scheme
+$main-color: #292f4c;
+
+$colors: (
+	"blue" : $blue,
+	"yellow" : $yellow,
+	"red" : $danger,
+	"green" : $success,
+	"orange" : $orange,
+	"gray" : $gray,
+	"purple" : $purple
+);
+
+// Font
+$body-font: 'SF UI Display Medium';
+$body-font-light: 'SF UI Display Light';
+$heading-font: 'SF UI Display Bold';

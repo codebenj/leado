@@ -1,0 +1,156 @@
+[
+  {
+    "group": 0,
+    "escalation_level": "Accept Or Decline",
+    "response": "I haven't attempted to contacted Enquirer",
+    "children": [
+      {
+        "escalation_status": "Declined",
+        "reason": "I'm currently on holiday/business leave",
+        "comments": "",
+        "additional_questions": []
+      },
+      {
+        "escalation_status": "Declined",
+        "reason": "I'm on sick leave",
+        "comments": "",
+        "additional_questions": []
+      },
+      {
+        "escalation_status": "Declined",
+        "reason": "Currently too much work on",
+        "comments": "",
+        "additional_questions": []
+      },
+      {
+        "escalation_status": "Declined",
+        "reason": "Other",
+        "comments": "",
+        "additional_questions": [
+          {
+            "text": "Comments:",
+            "field_type": "textarea"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "group": 1,
+    "escalation_level": "In Progress",
+    "response": "I have contacted Enquirer",
+    "children": [
+      {
+        "escalation_status": "Awaiting Response",
+        "reason": "This lead is currently Work in Progress",
+        "comments": "",
+        "additional_questions": []
+      },
+      {
+        "escalation_status": "Awaiting Response",
+        "reason": "This lead will be installed soon",
+        "comments": "",
+        "additional_questions": []
+      }
+    ]
+  },
+  {
+    "group": 1,
+    "escalation_level": "Lost",
+    "response": "I have contacted Enquirer",
+    "children": [
+      {
+        "escalation_status": "Lost",
+        "reason": "This lead has been LOST",
+        "comments": "",
+        "additional_questions": [
+          {
+            "text": "What is the main reason that this lead was lost?",
+            "field_type": "select",
+            "response": "",
+            "comments": "",
+            "field_values": [
+              {
+                "text": "Enquirer went with someone with a different system (not a ski-slope system).",
+                "value": "Enquirer went with someone with a different system (not a ski-slope system).",
+                "additional_questions": [
+                  {
+                    "text": "What System?",
+                    "field_type": "textarea",
+                    "response": ""
+                  }
+                ]
+              },
+              {
+                "text": "Enquirer went with a ski-slope system but a different installer.",
+                "value": "Enquirer went with a ski-slope system but a different installer.",
+                "additional_questions": []
+              },
+              {
+                "text": "Enquirer decided not to install ski-slope system because price too high.",
+                "value": "Enquirer decided not to install ski-slope system because price too high.",
+                "additional_questions": []
+              },
+              {
+                "text": "Enquirer might order in the future but the time frame is unknown.",
+                "value": "Enquirer might order in the future but the time frame is unknown.",
+                "additional_questions": []
+              },
+              {
+                "text": "Others",
+                "value": "Others",
+                "additional_questions": [
+                  {
+                    "text": "Please indicate your reason.",
+                    "field_type": "textarea",
+                    "response": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Do you have any extra feedback regarding this Lead and Enquirer?",
+            "field_type": "textarea",
+            "response": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "group": 1,
+    "escalation_level": "Lost",
+    "response": "I have contacted Enquirer",
+    "children": [
+      {
+        "escalation_status": "Lost",
+        "reason": "This lead has been WON",
+        "comments": "",
+        "gutter_edge_meters": 0,
+        "valley_meters": 0,
+        "date_installed": "0000-00-00",
+        "additional_questions": []
+      }
+    ]
+  },
+  {
+    "group": 2,
+    "escalation_level": "Confirm Enquirer Contacted",
+    "response": "I've tried contacting the Enquirer",
+    "children": [
+      {
+        "escalation_status": "Awaiting Response",
+        "reason": "Couldn't get through. Will keep trying.",
+        "comments": "",
+        "additional_questions": []
+      },
+      {
+        "escalation_status": "Awaiting Response",
+        "reason": "Waiting for their response. Will keep trying.",
+        "comments": "",
+        "additional_questions": []
+      }
+    ]
+  }
+]

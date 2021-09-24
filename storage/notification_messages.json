@@ -1,0 +1,1810 @@
+{
+  "Unassigned - Unassigned": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "",
+        "message": "",
+        "show_fields": ["reason", "comments", "inquirer", "org"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "",
+        "message": "",
+        "show_fields": [
+          "reason",
+          "comments",
+          "inquirer",
+          "org",
+          "installed",
+          "date_installed"
+        ]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "",
+        "description": ""
+      }
+    }
+  },
+  "Unassigned - Special Opportunity": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "UNASSIGNED ENQUIRY - SPECIAL OPPORTUNITY",
+        "message": "This enquiry has been identified as a possible Special Opportunity. Determine the potential and update the status accordingly. ",
+        "show_fields": ["lead_id", "inquirer"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "Special Opportunity",
+        "description": "Email sent to Admin"
+      },
+      "notification": {
+        "title": "Special Opportunity",
+        "description": "This enquiry has been identified as a possible Special Opportunity. Determine the potential and update the status accordingly."
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "",
+        "message": "",
+        "show_fields": [
+          "reason",
+          "comments",
+          "inquirer",
+          "org",
+          "installed",
+          "date_installed"
+        ]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "",
+        "description": ""
+      }
+    }
+  },
+  "Accept Or Decline - Pending": {
+    "inquirer": {
+      "email": {
+        "title": "LEAF STOPPER CONFIRMATION",
+        "description": "Thank you for your Leaf Stopper enquiry. If you do not receive a call from an installer in 72 hrs pls call or email us 1300 334 333 - office@leafstopper.com.au"
+      },
+      "sms": {
+        "title": "LEAF STOPPER CONFIRMATION",
+        "description": "Thank you for your Leaf Stopper enquiry. If you do not receive a call from an installer in 72 hrs pls call or email us 1300 334 333 - office@leafstopper.com.au"
+      },
+      "activity_log": {
+        "title": "LEAF STOPPER CONFIRMATION",
+        "description": "Sent notification to enquirer."
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "",
+        "message": "",
+        "show_fields": ["reason", "comments", "inquirer", "org"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "NEW LEAF STOPPER LEAD - ACCEPT or DECLINE",
+        "message": "Hi [org_name]<br /><br />We have received a new Leaf Stopper enquiry at [suburb_name]. Please ACCEPT or DECLINE this lead.<br /><br />If we don’t receive a reply from you within [aod-pending], the lead will lapse and it will be reassigned.<br /><br />If you accept, your investment if the lead is WON will be $0.00.<br /><br />Click the button below to ACCEPT or DECLINE this lead.<br /><br />Suburb: [suburb_name]<br />Postcode: [postcode]<br />State: [state]",
+        "show_fields": ["login_link"]
+      },
+      "sms": {
+        "title": "NEW LEAF STOPPER LEAD - ACCEPT Or DECLINE",
+        "description": "New Leaf Stopper lead from [suburb_name], [postcode], [state]. Click the link to ACCEPT or DECLINE [lead_history_link]"
+      },
+      "activity_log": {
+        "title": "NEW LEAF STOPPER LEAD - ACCEPT Or DECLINE",
+        "description": "Email sent to [org_name]"
+      },
+      "notification": {
+        "title": "NEW LEAF STOPPER LEAD - ACCEPT Or DECLINE",
+        "description": "New Leaf Stopper lead! Click here to ACCEPT or DECLINE."
+      }
+    }
+  },
+  "Accept Or Decline - Declined": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "LEAD WAS DECLINED BY ORGANISATION",
+        "message": "This lead was DECLINED. It must be promptly reassigned.",
+        "show_fields": ["reason", "comments", "inquirer", "org"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "LEAD WAS DECLINED BY ORGANISATION",
+        "description": "Email sent to Admin"
+      },
+      "notification": {
+        "title": "LEAD WAS DECLINED BY ORGANISATION",
+        "description": "[org_name] Declined the lead. The reason being - [reason] - [comments]"
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "YOU DECLINED A LEAD",
+        "message": "",
+        "show_fields": [
+          "reason",
+          "comments",
+          "inquirer",
+          "org",
+          "installed",
+          "date_installed"
+        ]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "YOU DECLINED A LEAD",
+        "description": "Your response has been received. The reason being - [reason] - [comments]"
+      }
+    }
+  },
+  "Accept Or Decline - Declined-Lapsed": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "LEAD WAS ALLOWED TO LAPSE",
+        "message": "This Organisation failed to ACCEPT or DECLINE the lead in time. Their account has been suspended from receiving new leads until the Org resolves this.",
+        "show_fields": ["inquirer", "org"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "LEAD WAS ALLOWED TO LAPSE",
+        "description": "Email sent to Admin"
+      },
+      "notification": {
+        "title": "LEAD WAS ALLOWED TO LAPSE",
+        "description": "No response. Account has been suspended from receiving new leads and this lead may need to be reassigned."
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "LEAD WAS ALLOWED TO LAPSE",
+        "message": "A new lead was sent to you to ACCEPT or DECLINE. Unfortunately, we did not receive a response in time and the lead was allowed to LAPSE.",
+        "show_fields": ["reason", "comments", "inquirer", "org"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "LEAD WAS ALLOWED TO LAPSE",
+        "description": "Email sent to [org_name]"
+      },
+      "notification": {
+        "title": "LEAD WAS ALLOWED TO LAPSE",
+        "description": "A new lead was sent to you to ACCEPT or DECLINE. Unfortunately, we did not receive a response in time and the lead was allowed to LAPSE."
+      }
+    }
+  },
+  "Confirm Enquirer Contacted - Discontinued": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "LEAD DISCONTINUED BY ORGANISATION",
+        "message": "This lead was DISCONTINUED. It must be promptly reassigned by Admin.",
+        "show_fields": ["reason", "comments", "inquirer", "org"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "LEAD DISCONTINUED",
+        "description": "Email sent to Admin"
+      },
+      "notification": {
+        "title": "LEAD DISCONTINUED",
+        "description": "[org_name] updated the lead. The reason being - [reason] - [comments]"
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "LEAD DISCONTINUED",
+        "message": "Your response has been received.",
+        "show_fields": ["reason", "comments"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "LEAD DISCONTINUED",
+        "description": "Your response has been received. The reason being - [reason] - [comments]"
+      },
+      "notification": {
+        "title": "LEAD DISCONTINUED",
+        "description": "Your response has been received. The reason being - [reason] - [comments]"
+      }
+    }
+  },
+  "Confirm Enquirer Contacted - Declined": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "LEAD WAS DECLINED BY ORGANISATION",
+        "message": "This lead was DECLINED. It must be promptly reassigned by Admin.",
+        "show_fields": ["reason", "comments", "inquirer", "org"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "LEAD WAS DECLINED BY ORG",
+        "description": "Email sent to Admin"
+      },
+      "notification": {
+        "title": "LEAD WAS DECLINED BY ORG",
+        "description": "[org_name] updated the lead. The reason being - [reason] - [comments]"
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "YOU DECLINED A NEW LEAF STOPPER LEAD",
+        "message": "Your response has been received. The reason being - [reason] - [comments]",
+        "show_fields": ["inquirer", "lead_history_link"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "YOU DECLINED A NEW LEAF STOPPER LEAD",
+        "description": "Your response has been received. The reason being - [reason] - [comments]"
+      }
+    }
+  },
+  "Confirm Enquirer Contacted - Awaiting Response": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "",
+        "message": "",
+        "show_fields": [""]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "LEAD WAS ACCEPTED BY ORG",
+        "description": "[org_name] has ACCEPTED the lead. Waiting for Enquirer to be contacted."
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "YOU ACCEPTED A NEW LEAF STOPPER LEAD",
+        "message": "You ACCEPTED this Leaf Stopper lead. Please complete the following steps:<br /><br /><b>Step 1</b> - Contact the enquirer within [cec-awaiting-response].<br /><br /><b>Step 2</b> - Update the status of this lead using the button below or by signing into your account at <a href='www.traleado.com/login' target='_blank'>www.traleado.com/login<a>",
+        "show_fields": ["inquirer", "lead_history_link", "login_link"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "YOU ACCEPTED A NEW LEAF STOPPER LEAD",
+        "description": "Email sent to [org_name]"
+      },
+      "notification": {
+        "title": "YOU ACCEPTED A NEW LEAF STOPPER LEAD",
+        "description": "You have ACCEPTED a new lead. Please contact the Enquirer as soon as possible and update the lead status."
+      }
+    }
+  },
+  "Confirm Enquirer Contacted - Awaiting Response - Reminder Sent": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "",
+        "message": "",
+        "show_fields": []
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "AWAITING PROGRESS RESPONSE – REMINDER",
+        "description": "Email sent to [org_name]"
+      },
+      "notification": {
+        "title": "AWAITING PROGRESS RESPONSE – REMINDER",
+        "description": "A reminder has been sent to [org_name]"
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "AWAITING PROGRESS RESPONSE – REMINDER",
+        "message": "This is an urgent reminder to update the status of this lead. Please complete the following steps:<br /><br /><br /><b>Step 1</b> - Contact the enquirer within [cec-awaiting-response-email-sent].<br /><br /><b>Step 2</b> - Update the status of this lead using the button below or by signing into your account at <a href='www.traleado.com/login' target='_blank'>www.traleado.com/login<a><br /><br />",
+        "show_fields": [
+          "inquirer",
+          "lead_history_link",
+          "lead_id",
+          "login_link"
+        ]
+      },
+      "sms": {
+        "title": "AWAITING PROGRESS RESPONSE – REMINDER",
+        "description": "Please update this lead immediately.[lead_detail]"
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "AWAITING PROGRESS RESPONSE – REMINDER",
+        "description": "An email has been sent to you as a reminder. Please update this lead #[lead_id] immediately."
+      }
+    }
+  },
+  "Confirm Enquirer Contacted - Awaiting Response - Admin Notified": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "“CONFIRM ENQUIRER CONTACTED” - UNRESPONSIVE ORGANISATION",
+        "message": "[org_name] is unresponsive and have not updated their status for “CONFIRM ENQUIRER CONTACTED”. Their account has been suspended from receiving new leads until the Org resolves this. Investigate urgently in case this lead needs to be promptly reassigned.",
+        "show_fields": ["inquirer", "org"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "\"CONFIRM ENQUIRER CONTACTED\" - UNRESPONSIVE ORGANISATION",
+        "description": "Email sent to Admin"
+      },
+      "notification": {
+        "title": "“CONFIRM ENQUIRER CONTACTED” - UNRESPONSIVE ORGANISATION",
+        "description": "[org_name] is unresponsive. The account has been suspended from receiving new leads until the Org resolves this. This lead may need to be reassigned."
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "UPDATE CRITICAL LEADS",
+        "message": "Hi [org_name],<br /><br />Unfortunately, we did not receive a response to this lead in time. You will not receive any new leads until this is resolved.<br /><br >",
+        "show_fields": ["inquirer", "login_link"]
+      },
+      "sms": {
+        "title": "UPDATE CRITICAL LEADS",
+        "description": "The lead was not updated in time. You will not receive any new leads until this is resolved.[lead_detail]"
+      },
+      "activity_log": {
+        "title": "UPDATE CRITICAL LEADS",
+        "description": "Email sent to [org_name]"
+      },
+      "notification": {
+        "title": "UPDATE CRITICAL LEADS",
+        "description": "The lead was not updated in time. You will not receive any new leads until this is resolved."
+      }
+    }
+  },
+  "In Progress - Discontinued": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "LEAD DISCONTINUED BY ORGANISATION",
+        "message": "This lead was DISCONTINUED. It must be promptly reassigned by Admin.",
+        "show_fields": ["reason", "comments", "inquirer", "org"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "LEAD DISCONTINUED",
+        "description": "Email sent to Admin"
+      },
+      "notification": {
+        "title": "LEAD DISCONTINUED",
+        "description": "[org_name] updated the lead. The reason being - [reason] - [comments]"
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "LEAD DISCONTINUED",
+        "message": "Your response has been received.",
+        "show_fields": ["reason", "comments"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "LEAD DISCONTINUED",
+        "description": "Your response has been received. The reason being - [reason] - [comments]"
+      },
+      "notification": {
+        "title": "LEAD DISCONTINUED",
+        "description": "Your response has been received. The reason being - [reason] - [comments]"
+      }
+    }
+  },
+  "In Progress - Awaiting Response": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "WORK IN PROGRESS",
+        "message": "[org_name] updated the lead with the following response.",
+        "show_fields": ["reason", "comments", "inquirer", "org"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "WORK IN PROGRESS",
+        "description": "[org_name] updated the lead with the following response - [reason] - [comments]"
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "YOUR LEAD PROGRESS UPDATE HAS BEEN RECEIVED",
+        "message": "Hi [org_name],<br /><br />Your PROGRESS response has been received. Please update the lead status within [inprogress-awaiting-response] to advise if this lead has been WON (installed) or LOST. You can extend the time if needed by updating the lead status.<br /><br />Update the status of this lead using the button below or by signing into your account at <a href='www.traleado.com/login' target='_blank'>www.traleado.com/login</a>",
+        "show_fields": [
+          "inquirer",
+          "lead_history_link",
+          "lead_id",
+          "login_link"
+        ]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "YOUR LEAD PROGRESS UPDATE HAS BEEN RECEIVED",
+        "description": "Email sent to [org_name]"
+      },
+      "notification": {
+        "title": "YOUR LEAD PROGRESS UPDATE HAS BEEN RECEIVED",
+        "description": "Your response has been received. Please update the lead status once the lead is WON (installed) or LOST. You can extend the time if needed by updating the lead status."
+      }
+    }
+  },
+  "In Progress - Extended 1": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "IN PROGRESS - EXTENDED",
+        "message": "[org_name] has extended the lead until [date_chosen]",
+        "show_fields": [
+          "reason",
+          "comments",
+          "inquirer",
+          "org",
+          "option",
+          "date_chosen"
+        ]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "IN PROGRESS - EXTENDED",
+        "description": "[org_name] has extended the lead until [date_chosen] - [option] - [comments]"
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "LEAD EXTENDED",
+        "message": "Your extension has been received. Please update the lead status once the lead is WON (installed) or LOST. You can extend the time if needed by updating the lead status.",
+        "show_fields": [
+          "inquirer",
+          "lead_history_link",
+          "lead_id",
+          "login_link"
+        ]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "LEAD EXTENDED",
+        "description": "Your extension has been received. Please update the lead status once the lead is WON (installed) or LOST. You can extend the time if needed by updating the lead status."
+      }
+    }
+  },
+  "In Progress - Extended 2": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "IN PROGRESS - EXTENDED",
+        "message": "[org_name] has extended the lead until [date_chosen]",
+        "show_fields": [
+          "reason",
+          "comments",
+          "inquirer",
+          "org",
+          "option",
+          "date_chosen"
+        ]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "IN PROGRESS - EXTENDED",
+        "description": "[org_name] has extended the lead until [date_chosen] - [option] - [comments]"
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "LEAD EXTENDED",
+        "message": "Your extension has been received. Please update the lead status once the lead is WON (installed) or LOST. You can extend the time if needed by updating the lead status.",
+        "show_fields": [
+          "inquirer",
+          "lead_history_link",
+          "lead_id",
+          "login_link"
+        ]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "LEAD EXTENDED",
+        "description": "Your extension has been received. Please update the lead status once the lead is WON (installed) or LOST. You can extend the time if needed by updating the lead status."
+      }
+    }
+  },
+  "In Progress - Extended": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "IN PROGRESS - EXTENDED",
+        "message": "[org_name] has extended the lead until [date_chosen]",
+        "show_fields": [
+          "reason",
+          "comments",
+          "inquirer",
+          "org",
+          "option",
+          "date_chosen"
+        ]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "IN PROGRESS - EXTENDED",
+        "description": "[org_name] has extended the lead until [date_chosen] - [option] - [comments]"
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "LEAD EXTENDED",
+        "message": "Your extension has been received. Please update the lead status once the lead is WON (installed) or LOST. You can extend the time if needed by updating the lead status.",
+        "show_fields": [
+          "inquirer",
+          "lead_history_link",
+          "lead_id",
+          "login_link"
+        ]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "LEAD EXTENDED",
+        "description": "Your extension has been received. Please update the lead status once the lead is WON (installed) or LOST. You can extend the time if needed by updating the lead status."
+      }
+    }
+  },
+  "In Progress - Extended 3": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "",
+        "message": "",
+        "show_fields": ["inquirer", "org"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": "Email sent to Admin"
+      },
+      "notification": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "",
+        "message": "",
+        "show_fields": ["lead_history_link"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "",
+        "description": ""
+      }
+    }
+  },
+  "In Progress - Awaiting Response - Reminder Sent": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "",
+        "message": "",
+        "show_fields": ["reason", "inquirer", "org"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "AWAITING PROGRESS RESPONSE – REMINDER",
+        "description": "A reminder has been sent to [org_name]"
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "AWAITING PROGRESS RESPONSE - REMINDER",
+        "message": "This is an urgent reminder to update the status of this lead. Please complete the following steps:<br /><br /><br /><b>Step 1</b> - Contact the enquirer within [inprogress-awaiting-response-email-sent].<br /><br /><b>Step 2</b> - Update the status of this lead using the button below or by signing into your account at <a href='www.traleado.com/login' target='_blank'>www.traleado.com/login<a><br /><br />",
+        "show_fields": [
+          "inquirer",
+          "lead_history_link",
+          "lead_id",
+          "login_link"
+        ]
+      },
+      "sms": {
+        "title": "AWAITING PROGRESS RESPONSE – REMINDER",
+        "description": "Please update this lead immediately.[lead_detail]"
+      },
+      "activity_log": {
+        "title": "AWAITING PROGRESS RESPONSE – REMINDER",
+        "description": "Email sent to [org_name]"
+      },
+      "notification": {
+        "title": "AWAITING PROGRESS RESPONSE – REMINDER",
+        "description": "An email has been sent to you as a reminder. Please update this lead immediately."
+      }
+    }
+  },
+  "In Progress - Awaiting Response - Admin Notified": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "“IN PROGRESS” - UNRESPONSIVE ORGANISATION",
+        "message": "[org_name] is unresponsive and have not updated their status for “IN PROGRESS”. Their account had been suspended from receiving new leads until the Org resolves this. Investigate urgently in case this lead needs to be promptly reassigned. ",
+        "show_fields": ["inquirer", "org"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "\"IN PROGRESS\" - UNRESPONSIVE ORGANISATION",
+        "description": "Email sent to Admin"
+      },
+      "notification": {
+        "title": "“IN PROGRESS” - UNRESPONSIVE ORGANISATION",
+        "description": "[org_name] is unresponsive. The account has been suspended from receiving new leads until the Org resolves this. This lead may need to be reassigned."
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "UPDATE CRITICAL LEADS",
+        "message": "Hi [org_name],<br /><br />Unfortunately, we did not receive a response to this lead in time. You will not receive any new leads until this is resolved.<br /><br >",
+        "show_fields": ["inquirer", "login_link"]
+      },
+      "sms": {
+        "title": "UPDATE CRITICAL LEADS",
+        "description": "The lead was not updated in time. You will not receive any new leads until this is resolved.[lead_detail]"
+      },
+      "activity_log": {
+        "title": "UPDATE CRITICAL LEADS",
+        "description": "Email sent to [org_name]"
+      },
+      "notification": {
+        "title": "UPDATE CRITICAL LEADS",
+        "description": "The lead was not updated in time. You will not receive any new leads until this is resolved.[lead_detail]"
+      }
+    }
+  },
+  "In Progress - Supply Only(SP)": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "SUPPLY ONLY - SPECIAL OPPORTUNITY",
+        "message": "This enquiry has been identified as a possible Special Opportunity.",
+        "show_fields": ["reason", "comments", "inquirer"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "SUPPLY ONLY - SPECIAL OPPORTUNITY",
+        "description": "Email sent to Admin"
+      },
+      "notification": {
+        "title": "SUPPLY ONLY - SPECIAL OPPORTUNITY",
+        "description": "This enquiry has been identified as a possible Special Opportunity."
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "",
+        "message": "",
+        "show_fields": []
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "",
+        "description": ""
+      }
+    }
+  },
+  "In Progress - Supply Only": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "",
+        "message": "",
+        "show_fields": ["reason", "comments", "inquirer", "org"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "",
+        "message": "",
+        "show_fields": []
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "",
+        "description": ""
+      }
+    }
+  },
+  "Discontinued - Discontinued": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "LEAD DISCONTINUED BY ORGANISATION",
+        "message": "This lead was DISCONTINUED. It must be promptly reassigned by Admin.",
+        "show_fields": ["reason", "comments", "inquirer", "org"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "LEAD DISCONTINUED",
+        "description": "Email sent to Admin"
+      },
+      "notification": {
+        "title": "LEAD DISCONTINUED",
+        "description": "[org_name] updated the lead. The reason being - [reason] - [comments]"
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "LEAD DISCONTINUED",
+        "message": "Your response has been received.",
+        "show_fields": ["reason", "comments"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "LEAD DISCONTINUED",
+        "description": "Your response has been received. The reason being - [reason] - [comments]"
+      },
+      "notification": {
+        "title": "LEAD DISCONTINUED",
+        "description": "Your response has been received. The reason being - [reason] - [comments]"
+      }
+    }
+  },
+  "Abandoned - Abandoned": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "ABANDONED LEAD",
+        "message": "[org_name] ABANDONED this lead so it was reassigned to [new_org_name].",
+        "show_fields": ["lead_id", "inquirer"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "ABANDONED LEAD",
+        "description": "Email sent to Admin"
+      },
+      "notification": {
+        "title": "ABANDONED LEAD",
+        "description": "[org_name] ABANDONED the lead so it was reassigned to [new_org_name]"
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "ABANDONED LEAD",
+        "message": "This lead was not updated in time. It is now considered ABANDONED and has been reassigned to another organisation.",
+        "show_fields": ["lead_id", "inquirer"]
+      },
+      "sms": {
+        "title": "ABANDONED LEAD",
+        "description": "The lead was not updated in time. It is now considered ABANDONED and has been reassigned to another Organisation",
+        "show_fields": ["lead_id", "inquirer"]
+      },
+      "activity_log": {
+        "title": "ABANDONED LEAD",
+        "description": "Email sent to [org_name]"
+      },
+      "notification": {
+        "title": "ABANDONED LEAD",
+        "description": "The lead was not updated in time. It is now considered ABANDONED and has been reassigned to another Organization"
+      }
+    }
+  },
+  "Lost - Lost": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "LEAD WAS LOST",
+        "message": "This lead was LOST. Please call Enquirer to investigate and confirm the facts.",
+        "show_fields": ["reason", "comments", "inquirer", "org"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "LEAD WAS LOST",
+        "description": "Email sent to Admin"
+      },
+      "notification": {
+        "title": "LEAD WAS LOST",
+        "description": "[org_name] has LOST the lead. Reason being - [reason] - [comments]"
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "LEAD WAS LOST",
+        "message": "Your LOST lead update was received. Thank you.",
+        "show_fields": ["reason", "comments", "inquirer", "lead_id"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "LEAD WAS LOST",
+        "description": "Email sent to [org_name]"
+      },
+      "notification": {
+        "title": "LEAD WAS LOST",
+        "description": "Your response has been received as - [reason] - [comments]"
+      }
+    }
+  },
+  "Lost - Supply Only": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "",
+        "message": "",
+        "show_fields": ["reason", "comments", "inquirer", "org"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "",
+        "message": "",
+        "show_fields": []
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "",
+        "description": ""
+      }
+    }
+  },
+  "Won - Won": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "LEAD WAS WON AND INSTALLED",
+        "message": "",
+        "show_fields": [
+          "reason",
+          "comments",
+          "inquirer",
+          "org",
+          "installed",
+          "date_installed"
+        ]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "LEAD WAS WON AND INSTALLED",
+        "description": "Email sent to Admin"
+      },
+      "notification": {
+        "title": "LEAD WAS WON AND INSTALLED",
+        "description": "[org_name] has WON and installed the lead - [installation_dimensions] - [installed_date]"
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "LEAD WAS WON AND INSTALLED",
+        "message": "Congratulations on your Leaf Stopper installation! Thank you.",
+        "show_fields": ["lead_id", "inquirer", "installed", "date_installed"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "LEAD WAS WON AND INSTALLED",
+        "description": "Email sent to [org_name]"
+      },
+      "notification": {
+        "title": "LEAD WAS WON AND INSTALLED",
+        "description": "Congratulations on your Leaf Stopper installation!"
+      }
+    }
+  },
+  "Won - Supply Only": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "",
+        "message": "",
+        "show_fields": ["reason", "comments", "inquirer", "org"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "",
+        "message": "",
+        "show_fields": []
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "",
+        "description": ""
+      }
+    }
+  },
+  "Confirm Enquirer Contacted - Supply Only(SP)": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "",
+        "message": "",
+        "show_fields": ["reason", "comments", "inquirer", "org"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "",
+        "message": "",
+        "show_fields": []
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "",
+        "description": ""
+      }
+    }
+  },
+  "Confirm Enquirer Contacted - Supply Only": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "",
+        "message": "",
+        "show_fields": ["reason", "comments", "inquirer", "org"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "",
+        "message": "",
+        "show_fields": []
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "",
+        "description": ""
+      }
+    }
+  },
+  "Finalized - Supply Only": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "",
+        "message": "",
+        "show_fields": ["reason", "comments", "inquirer", "org"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "",
+        "message": "",
+        "show_fields": []
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "",
+        "description": ""
+      }
+    }
+  },
+  "Finalized - Supply Only(SP)": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "SUPPLY ONLY - SPECIAL OPPORTUNITY",
+        "message": "This enquiry has been identified as a possible Special Opportunity.",
+        "show_fields": ["reason", "comments", "inquirer"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "SUPPLY ONLY - SPECIAL OPPORTUNITY",
+        "description": "Email sent to Admin"
+      },
+      "notification": {
+        "title": "SUPPLY ONLY - SPECIAL OPPORTUNITY",
+        "description": "This enquiry has been identified as a possible Special Opportunity. "
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "",
+        "message": "",
+        "show_fields": []
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "",
+        "description": ""
+      }
+    }
+  },
+  "Supply Only - SP": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "SUPPLY ONLY - SPECIAL OPPORTUNITY",
+        "message": "This enquiry has been identified as a possible Special Opportunity.",
+        "show_fields": ["lead_id", "inquirer", "org"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "",
+        "message": "",
+        "show_fields": []
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "",
+        "description": ""
+      }
+    }
+  },
+  "Lost - Inconclusive": {
+    "inquirer": {
+      "email": {
+        "title": "",
+        "description": ""
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "admin": {
+      "email": {
+        "title": "LOST - INCONCLUSIVE",
+        "message": "Org [org_name] updated the status of this Lead to Lost - Inconclusive. Meaning CONTACT attempts were made but the Enquirer was never reached. Please investigate this further.",
+        "show_fields": ["org"]
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "LOST - INCONCLUSIVE",
+        "description": "Org [org_name] updated the status of this Lead to Lost - Inconclusive. Meaning CONTACT attempts were made but the Enquirer was never reached. Please investigate this further."
+      }
+    },
+    "organization": {
+      "email": {
+        "title": "",
+        "message": "",
+        "show_fields": []
+      },
+      "sms": {
+        "title": "",
+        "description": ""
+      },
+      "activity_log": {
+        "title": "",
+        "description": ""
+      },
+      "notification": {
+        "title": "LOST - INCONCLUSIVE",
+        "description": "Thank you for your update. Admin will attempt to follow up with the Enquirer."
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+.card {
+
+	.notif {
+
+		&-card {
+			-webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+			box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+			border-radius: 0;
+			border-top: 4px solid #155799;
+	
+			span, p {
+				color: rgba(97, 97, 97, 0.87);
+			}
+		
+			p:last-of-type {
+				margin-bottom: 0
+			}
+		}
+	
+		@each $color, $hex in $colors {
+			&-#{$color} {
+				border-top-color: $hex;
+	
+				&:hover {
+					-webkit-box-shadow: 0 1px 10px 0 rgba($hex, .25), 0 1px 10px 0 rgba($hex, .25);
+					box-shadow: 0 1px 10px 0 rgba($hex, .25), 0 1px 10px 0 rgba($hex, .25);
+				}
+			}
+		}
+	}
+
+	&-header .bar-primary {
+		border-color: $primary !important;
+	}
+
+	&-text {
+		font-size: 14px !important;
+	}
+
+	.card-body .nav-tabs .nav-link {
+		height: auto;
+	}
+
+	@media only screen and ( max-width: 579px ) {
+		.card-header, .card-block {
+			padding-left: .75rem !important;
+			padding-right: .75rem !important;
+		}
+
+		.notif-card {
+
+			.message {
+				font-size: 14px;
+				line-height: 18px;
+			}
+		}
+
+		.card-header {
+
+			.card-title-wrap {
+				margin-left: .1rem;
+				padding-left: .75rem;
+			}
+		}
+	}
+}
